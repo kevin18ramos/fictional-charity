@@ -1,0 +1,218 @@
+.page{
+  margin:0;
+}
+.human-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  width: 360px;
+  background-color: #3baf6b;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 55px;
+  
+}
+.page {
+  background-color: #333333;
+}
+.quote {
+  color: #3baf6b;
+  margin-left: 300px;
+  border: .5px solid white;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 35px;
+  font-style: italic;
+}
+.top-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 380px;
+  background-color: #2ca25e;
+  align-items: center;
+  height: 60px;
+  border-top: 2px black;
+  border-bottom: 2px black;
+  width: 100%;
+}
+
+.about {
+
+  width: auto;
+  margin-right: 370px;;
+  background-color: #b1b3c9;
+  font-size: 22px;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+
+}
+.about:hover{
+    cursor: pointer;
+    box-shadow: inset 200px 0 0 0 black;
+    color: #b1b3c9;;
+    border-color: #b1b3c9;
+}
+.donate {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b1b3c9;
+  font-size: 22px;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+
+.donate:hover{
+  cursor: pointer;
+  box-shadow: inset 200px 0 0 0 black;
+  color: #b1b3c9;;
+  border-color: #b1b3c9;
+}
+
+.button-det{
+  margin-top: 11px;
+}
+.about-page {
+  background-color: #e2dbdb;
+  margin: 0;
+}
+.detailed-why{
+  background-color: #3baf6b;
+  width: 100%;
+  height: 450px;
+}
+.hand-img{
+  margin-top: 80px;
+  margin-left: 80px;
+  border: 5px solid black;
+}
+.question{
+  color: #333333;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: solid #333333;
+
+}
+
+.humanity-q{
+  display: inline-block;
+  margin-left: 300px;
+    
+}
+.bio-about{
+  margin-top: 40px;
+}
+
+.response {
+  margin-top: 340px;
+  margin-left: 100px;
+  text-align: center;
+  margin: auto;
+}
+.bio-human{
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  line-height: 34px;
+}
+.bio-bio{
+  margin-top: 60px;
+}
+.home{
+  padding: 12px;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  background-color: #3baf6b;
+  border-color: white;
+}
+
+.home:hover{
+  cursor:pointer;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+}
+.donate-page{
+  background-color: #2ca25e;
+  margin: 0;
+}
+.donate-font{
+  text-align: center;
+  margin-top: 80px;
+  
+}
+.donation-text{
+  font-style: georgia;
+  font-size: 200px;
+  -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 2px 4px white;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+  
+  
+}
+.button-row{
+  display: flex;
+  justify-content: center;
+}
+.donating{
+  cursor: pointer;
+  transition: all .1s;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  margin-top: 95px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 26px;
+}
+.donating:hover{
+  font-size: 0;
+}
+.donating:hover:after{
+  content: attr(data-hover);
+  font-size: 13px;
+  width: 100px;
+  height: 80px;
+  font-size: 22px;
+  text-align: center;
+}
+.back-home{
+  padding: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+  transition: .5s;
+  font-size: 19px;
+
+}
+.back-home:hover{
+  background-color: #333333;
+  color: white;
+}
+.back-home:active{
+  opacity: .5;
+}
+.people-holding{
+  margin-left: 35px;
+  border: solid 3px black;
+}
